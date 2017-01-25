@@ -21,7 +21,7 @@
  */
 var questions = [
     {
-        "what does the acronym “GUMPS” stand for?": [
+        "what does the acronym, “GUMPS”, stand for?": [
             "Gas, Undercarriage, Mixture, Props, Switches",
             "Gyros, Upholstery, Magnetos, Pumps, Stabilizers",
             "Gear, Undertowe, Master, Pressure, Seatbelts",
@@ -29,15 +29,15 @@ var questions = [
         ]
     },
     {
-        "A standard traffic pattern uses what direction of turn?": [
+        "A standard traffic pattern, uses what direction of turn?": [
             "Left",
             "Right",
             "Clockwise",
-            "There is no standard"
+            "There is no standard turn"
         ]
     },
     {
-        "The standard recommended pattern height for fixed wing aircraft is?": [
+        "The standard recommended pattern height, for fixed wing aircraft is?": [
             "1000 AGL",
             "1000 MSL",
             "500 AGL",
@@ -47,7 +47,7 @@ var questions = [
     {
         "Class G airspace is?": [
             "Uncontrolled",
-            "Partially Controlled",
+            "special use",
             "Controlled",
             "Off Limits"
         ]
@@ -63,21 +63,21 @@ var questions = [
     {
         "Class E airspace is?": [
             "Controlled",
-            "Partially Controlled",
+            "special use",
             "Uncontrolled",
             "Off Limits"
         ]
     },
     {
-        "Class E airspace beguins at what altitude, unless otherwise indicated on charts?": [
+        "Class E airspace, begins at what altitude, unless otherwise indicated on charts?": [
             "1200 Feet AGL",
             "500 Feet AGL",
-            "The Ground",
+            "The surface",
             "12,000 Feet AGL"
         ]
     },
     {
-        "Class E airspace ends at what altitude, unless otherwise indicated on charts?": [
+        "Class E airspace, ends at what altitude, unless otherwise indicated on charts?": [
             "17,999 Feet MSL",
             "18,000 Feet MSL",
             "17,999 Feet AGL",
@@ -86,7 +86,7 @@ var questions = [
         ]
     },
     {
-        "Class A airspace beguins at what altitude?": [
+        "Class A airspace, beguins at what altitude?": [
             "18,000 Feet MSL",
             "17,999 Feet MSL",
             "17,999 Feet AGL",
@@ -95,7 +95,7 @@ var questions = [
         ]
     },
     {
-        "Class A airspace ends at what altitude?": [
+        "Class A airspace, ends at what altitude?": [
             "60,000 Feet MSL",
             "60,000 Feet AGL",
             "Outer Space",
@@ -112,7 +112,7 @@ var questions = [
         ]
     },
     {
-        "Class C's inner 5 knotical mile airspace beguins at what altitude?": [
+        "The 5 nautical mile inner ring of Class C airspace, begins at what altitude:": [
             "The Surface",
             "500 Feet MSL",
             "500 Feet AGL",
@@ -121,7 +121,7 @@ var questions = [
         ]
     },
     {
-        "Class C airspace ends at what altitude?": [
+        "Class C airspace, ends at what altitude?": [
             "4000 Feet AGL",
             "4000 Feet MSL",
             "4500 Feet MSL",
@@ -130,7 +130,7 @@ var questions = [
         ]
     },
     {
-        "Class B's 10 knotical mile inner airspace beguins at what altitude?": [
+        "The 10 nautical mile inner ring of Class B airspace, begins at what altitude:": [
             "The Surface",
             "500 Feet MSL",
             "500 Feet AGL",
@@ -139,7 +139,7 @@ var questions = [
         ]
     },
     {
-        "Class B's 30 knotical mile outer 'veil' requires what equipment?": [
+        "Class B's 30 nautical mile, outer ‘veil', requires what equipment:": [
             "Transponder with Mode C reporting",
             "Transponder",
             "GPS",
@@ -148,7 +148,7 @@ var questions = [
         ]
     },
     {
-        "Class B airspace ends at what altitude?": [
+        "Class B airspace, ends at what altitude?": [
             "10,000 Feet MSL",
             "10,000 Feet AGL",
             "4500 Feet MSL",
@@ -157,7 +157,7 @@ var questions = [
         ]
     },
     {
-        "Class D airspace beguins at what altitude?": [
+        "Class D airspace, beguins at what altitude?": [
             "The Surface",
             "500 Feet MSL",
             "500 Feet AGL",
@@ -166,7 +166,7 @@ var questions = [
         ]
     },
     {
-        "Class D airspace ends at what altitude?": [
+        "Class D airspace, ends at what altitude?": [
             "2500 Feet AGL",
             "2500 Feet MSL",
             "4500 Feet MSL",
@@ -175,7 +175,7 @@ var questions = [
         ]
     },    
     {
-        "Class D airspace is generally what diameter?": [
+        "Class D airspace, is generally what diameter?": [
             "4 Knotical Miles",
             "5 Knotical Miles",
             "10 Knotical Miles",
@@ -184,7 +184,7 @@ var questions = [
         ]
     },
     {
-        "What is required to enter Class A airspace?": [
+        "What is required, to enter Class A airspace?": [
             "Clearance",
             "A Jet",
             "ATP Certification",
@@ -192,7 +192,7 @@ var questions = [
         ]
     },
     {
-        "What is the speed limit under 10,000 feet in class b airspace?": [
+        "What is the speed limit, under 10,000 feet, in class b airspace?": [
             "250 knots indicated",
             "250 knots ground speed",
             "no limit",
@@ -200,7 +200,7 @@ var questions = [
         ]
     },
     {
-        "What is the speed limit within 4 knotical miles of class c or d airspace and at or below 2500 feet AGL?": [
+        "What is the speed limit, within 4 knotical miles, of class c or d airspace, and at or below 2500 feet AGL?": [
             "200 knots indicated",
             "250 knots ground speed",
             "no limit",
@@ -208,7 +208,7 @@ var questions = [
         ]
     },
     {
-        "What is the recomended speed limit in the traffic pattern in class G or E airspace?": [
+        "What is the recomended speed limit, in the traffic pattern, in class G or E airspace?": [
             "200 knots indicated",
             "250 knots ground speed",
             "no limit",
@@ -216,7 +216,7 @@ var questions = [
         ]
     },
     {
-        "What is NOT needed to enter class B airspace?": [
+        "What is, NOT needed, to enter class B airspace?": [
             "A commercial pilots certificate",
             "Transponder with Mode C reporting",
             "ATC Clearance",
@@ -224,78 +224,78 @@ var questions = [
         ]
     },
     {
-        "What minimum visibility and cloud clearance is required for VFR Flight in Class B airspace?": [
-            "3 statute miles visibility and clear of clouds",
-            "3 statute miles visibility and 500 feet below, 1000 feet above, and 2000 feet horizontally",
+        "What minimum visibility and cloud clearance, is required for VFR Flight, in Class B airspace?": [
+            "3 statute miles visibility, and clear of clouds",
+            "3 statute miles visibility, and 500 feet below, 1000 feet above, and 2000 feet horizontally",
             "does not apply",
-            "5 statute miles visibility and 1000 feet below, 1000 feet above, and 1 statute mile horizontally"
+            "5 statute miles visibility, and 1000 feet below, 1000 feet above, and 1 statute mile horizontally"
         ]
     },
     {
-        "What minimum visibility and cloud clearance is required for VFR Flight in Class A airspace?": [
+        "What minimum visibility and cloud clearance is required, for VFR Flight, in Class A airspace?": [
             "does not apply",
-            "3 statute miles visibility and clear of clouds",
-            "3 statute miles visibility and 500 feet below, 1000 feet above, and 2000 feet horizontally",
-            "5 statute miles visibility and 1000 feet below, 1000 feet above, and 1 statute mile horizontally"
+            "3 statute miles visibility, and clear of clouds",
+            "3 statute miles visibility, and 500 feet below, 1000 feet above, and 2000 feet horizontally",
+            "5 statute miles visibility, and 1000 feet below, 1000 feet above, and 1 statute mile horizontally"
         ]
     },
     {
-        "What minimum visibility and cloud clearance is required for VFR Flight in Class C, D, and E airspace below 10,000 feet MSL?": [
-            "3 statute miles visibility and 500 feet below, 1000 feet above, and 2000 feet horizontally",
+        "What minimum visibility and cloud clearance is required, for VFR Flight, in Class C, D, and E airspace, below 10,000 feet MSL?": [
+            "3 statute miles visibility, and 500 feet below, 1000 feet above, and 2000 feet horizontally",
             "does not apply",
-            "3 statute miles visibility and clear of clouds",
-            "5 statute miles visibility and 1000 feet below, 1000 feet above, and 1 statute mile horizontally"
+            "3 statute miles visibility, and clear of clouds",
+            "5 statute miles visibility, and 1000 feet below, 1000 feet above, and 1 statute mile horizontally"
         ]
     },
     {
-        "What minimum visibility and cloud clearance is required for VFR Flight in Class E airspace above 10,000 feet MSL?": [
-            "5 statute miles visibility and 1000 feet below, 1000 feet above, and 1 statute mile horizontally",
-            "3 statute miles visibility and 500 feet below, 1000 feet above, and 2000 feet horizontally",
+        "What minimum visibility and cloud clearance is required, for VFR Flight, in Class E airspace, above 10,000 feet MSL?": [
+            "5 statute miles visibility, and 1000 feet below, 1000 feet above, and 1 statute mile horizontally",
+            "3 statute miles visibility, and 500 feet below, 1000 feet above, and 2000 feet horizontally",
             "does not apply",
-            "3 statute miles visibility and clear of clouds"
+            "3 statute miles visibility, and clear of clouds"
         ]
     },
     {
-        "What minimum visibility and cloud clearance is required for VFR Flight in Class G airspace above 1200 feet AGL and at or above 10,000 feet MSL?": [
-            "5 statute miles visibility and 1000 feet below, 1000 feet above, and 1 statute mile horizontally",
-            "3 statute miles visibility and 500 feet below, 1000 feet above, and 2000 feet horizontally",
+        "What minimum visibility and cloud clearance is required, for VFR Flight, in Class G airspace, above 1200 feet AGL, and at or above 10,000 feet MSL?": [
+            "5 statute miles visibility, and 1000 feet below, 1000 feet above, and 1 statute mile horizontally",
+            "3 statute miles visibility, and 500 feet below, 1000 feet above, and 2000 feet horizontally",
             "does not apply",
-            "3 statute miles visibility and clear of clouds"
+            "3 statute miles visibility, and clear of clouds"
         ]
     },
     {
-        "What minimum visibility and cloud clearance is required for VFR Flight in Class G airspace above 1200 feet AGL below 10,000 feet MSL at Night?": [
-            "3 statute miles visibility and 500 feet below, 1000 feet above, and 2000 feet horizontally",
-            "5 statute miles visibility and 1000 feet below, 1000 feet above, and 1 statute mile horizontally",
+        "What minimum visibility and cloud clearance is required, for VFR Flight, in Class G airspace, above 1200 feet AGL, and below 10,000 feet MSL, at Night?": [
+            "3 statute miles visibility, and 500 feet below, 1000 feet above, and 2000 feet horizontally",
+            "5 statute miles visibility, and 1000 feet below, 1000 feet above, and 1 statute mile horizontally",
             "does not apply",
-            "3 statute miles visibility and clear of clouds"
+            "3 statute miles visibility, and clear of clouds"
         ]
     },
     {
-        "What minimum visibility and cloud clearance is required for VFR Flight in Class G airspace above 1200 feet AGL below 10,000 feet MSL during the Day?": [
-            "1 statute miles visibility and 500 feet below, 1000 feet above, and 2000 feet horizontally",
-            "3 statute miles visibility and 500 feet below, 1000 feet above, and 2000 feet horizontally",
-            "5 statute miles visibility and 1000 feet below, 1000 feet above, and 1 statute mile horizontally",
+        "What minimum visibility and cloud clearance is required, for VFR Flight, in Class G airspace, above 1200 feet AGL, and below 10,000 feet MSL, during the Day?": [
+            "1 statute miles visibility, and 500 feet below, 1000 feet above, and 2000 feet horizontally",
+            "3 statute miles visibility, and 500 feet below, 1000 feet above, and 2000 feet horizontally",
+            "5 statute miles visibility, and 1000 feet below, 1000 feet above, and 1 statute mile horizontally",
             "does not apply",
-            "3 statute miles visibility and clear of clouds"
+            "3 statute miles visibility, and clear of clouds"
         ]
     },
     {
-        "What minimum visibility and cloud clearance is required for VFR Flight in Class G airspace below 1200 feet AGL during the Day?": [
-            "1 statute miles visibility and clear of clouds",
-            "1 statute miles visibility and 500 feet below, 1000 feet above, and 2000 feet horizontally",
-            "3 statute miles visibility and 500 feet below, 1000 feet above, and 2000 feet horizontally",
+        "What minimum visibility and cloud clearance is required, for VFR Flight, in Class G airspace, below 1200 feet AGL, during the Day?": [
+            "1 statute miles visibility, and clear of clouds",
+            "1 statute miles visibility, and 500 feet below, 1000 feet above, and 2000 feet horizontally",
+            "3 statute miles visibility, and 500 feet below, 1000 feet above, and 2000 feet horizontally",
             "does not apply",
-            "3 statute miles visibility and clear of clouds"
+            "3 statute miles visibility, and clear of clouds"
         ]
     },
     {
-        "What minimum visibility and cloud clearance is required for VFR Flight in Class G airspace below 1200 feet AGL at Night?": [
-            "3 statute miles visibility and 500 feet below, 1000 feet above, and 2000 feet horizontally",
-            "1 statute miles visibility and clear of clouds",
-            "1 statute miles visibility and 500 feet below, 1000 feet above, and 2000 feet horizontally",
+        "What minimum visibility and cloud clearance is required, for VFR Flight, in Class G airspace, below 1200 feet AGL, at Night?": [
+            "3 statute miles visibility, and 500 feet below, 1000 feet above, and 2000 feet horizontally",
+            "1 statute miles visibility, and clear of clouds",
+            "1 statute miles visibility, and 500 feet below, 1000 feet above, and 2000 feet horizontally",
             "does not apply",
-            "3 statute miles visibility and clear of clouds"
+            "3 statute miles visibility, and clear of clouds"
         ]
     },
     {
@@ -307,7 +307,7 @@ var questions = [
         ]
     },
     {
-        "What is required to enter class C airspace?": [
+        "What is required, to enter class C airspace?": [
             "Established Two-way radio communication",
             "A commercial pilots certificate",
             "NDB",
